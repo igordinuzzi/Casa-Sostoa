@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
+
+:root {
+    --primary-color: #1E1E1E;
+    --secondary-color: #A5A5A5;
+    --background-color: #f1f1f1; 
+    --sans-serif: 'Merriweather Sans', sans-serif;
+    --serif: 'Merriweather', serif;
+    --font-xl: 2.5em;
+    --font-l: 2em;
+    --font-m1: 1.75em;
+    --font-m2: 1.5em;
+    --font-m3: 1.25em;
+    --font-s: 1em; 
+    --font-xs: 0.85em;
+}
+
+body {
+    font-family: var(--sans-serif);
+    font-size: 16px; /* Base font size */
+    line-height: 1.6; /* Default line height */
+    margin: 0px; /* Reduced margin for a bit of white space */
+    padding: 0px; /* Reduced padding */
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+  
+h1 {
+    font-size: var(--font-xl);
+    line-height: 1.2;
+    font-family: var(--serif);
+  }
+  
+h2 {
+    font-size: var(--font-l);
+    line-height: 1.3;
+  }
+  
+h3 {
+    font-size: var(--font-m1);
+    line-height: 1.4;
+  }
+  
+h4 {
+    font-size: var(--font-m2);
+    line-height: 1.4;
+  }
+  
+h5 {
+    font-size: var(--font-m3);
+    line-height: 1.4;
+  }
+    
+p {
+    font-size: var(--font-s);
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
+  }
+  
+
+  .custom-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  .custom-link:hover {
+    color: var(--secondary-color); /* Change color on hover for visibility */
+  }
+  
+.copy {
+  font-size: var(--font-xs);
+  color: var(--secondary-color);
+}  
+
+  .hero-section {
+    position: relative;
+    background-image: url('assets/images/hero/hero-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    text-align: center;
+}
+
+.breadcrumb {
+  background-color: var(--background-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style individual breadcrumb items */
+.breadcrumb-item {
+  font-size: var(--font-xs); /* Set font size */
+  color: var(--primary-color);
+}
+
+/* Style links within breadcrumb items */
+.breadcrumb-item a {
+  color: var(--primary-color); /* Make the link color match the item text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Add a hover effect to breadcrumb links */
+.breadcrumb-item a:hover {
+  color: var(--primary-color); /* Darker shade on hover */
+  text-decoration: underline; /* Add underline on hover for better accessibility */
+}
+
+.title {
+  background-color: var(--secondary-color);
+  padding: 24px 0;
+}
+
+.search-field {
+  margin-bottom: 20px;
+}
+.artist-tags {
+  margin-bottom: 20px;
+}
+.page-title {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--background-color);
+  transition: color 0.6s ease; /* Agregamos una transición suave de 0.3 segundos para el cambio de color */
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.nav-link-active {
+  color: var(--secondary-color);
+}
+
+/* Custom Button Style */
+.btn-custom {
+  background-color: var(--primary-color); /* Primary color */
+  border: none;
+  color: var(--background-color);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.3s ease-out, transform 0.2s ease-out;
+  border-radius: 5px; /* Rounded corners */
+  /* Ensure there is space for the icon to move */
+  overflow: hidden; /* Optional: in case the icon movement should be contained within the button boundaries */
+}
+
+/* Icon style to ensure transition is smooth */
+.btn-custom .fa-arrow-right {
+  transition: transform 0.3s ease-out;
+  display: inline-block;
+  margin-left: 10px; /* Starting position with some space */
+}
+
+.btn-custom:hover, .btn-custom:focus {
+  background-color: var(--secondary-color); /* Darker shade for hover effect */
+  color: var(--primary-color);
+  transform: scale(1.05); /* Slightly larger on hover */
+  text-decoration: none; /* Ensures the text decoration is removed on hover */
+}
+
+.btn-custom:hover .fa-arrow-right, .btn-custom:focus .fa-arrow-right {
+  /* Move the icon further on hover */
+  transform: translateX(5px); 
+}
+
+.btn-custom:active {
+  transform: scale(0.95); /* Button presses down on click */
+}
+
+.btn-custom:active .fa-arrow-right {
+  transform: translateX(2px); /* Slightly less movement to simulate the button being pressed */
+}
+
+.banner-section {
+  background-image: url('assets/images/banner/banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjusted height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-section h2 {
+  font-size: 2.5rem;
+  color: var(--background-color); 
+  margin-bottom: 1rem;
+}
+
+.banner-section p {
+  font-size: 1.25rem;
+  color: #fff; 
+}
+
+.banner-section a {
+  color: var(--background-color);
+  font-weight: bold;
+  text-decoration: none;
+  /* Initial border setup for a smooth transition */
+  border-bottom: 2px solid transparent; /* Make the border transparent initially */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease; /* Smooth transition for color and border color */
+}
+
+.banner-section a:hover {
+  color: var(--background-color); /* Adjust if you want a different color on hover */
+  border-bottom-color: var(--background-color); /* Change border color instead of setting border directly */
+  text-decoration: none;
+}
+
+.footer {
+  background-color: var(--primary-color);
+}
+
+.footer-link {
+  color: var(--background-color);
+}
+
+.footer-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.icons-footer, .icons-footer .fa {
+  color: var(--background-color);
+  font-size: 24px; /* Adjust size as needed */
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-right: 16px;
+  display: inline-block; /* Necessary for transform effects */
+}
+
+.icons-footer:hover, .icons-footer:hover .fa {
+  color: var(--secondary-color); /* Color on hover */
+  transform: scale(1.2) rotate(15deg); /* Increase size slightly and rotate on hover */
+}
+
+.smaller-text {
+  font-size: var(--font-xs);
+  color: var(--secondary-color);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-color); 
+  color: var(--background-color);
+  padding: 10px;
+  height: 50px; /* Set height */
+  width: 50px; /* Set width to the same as height for a perfect circle */
+  border-radius: 50%;
+  font-size: var(--font-xs);
+  display: none; /* Initially hidden */
+  z-index: 1000; /* Ensure it's above other content */
+  cursor: pointer;
+  text-align: center;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  display: flex; /* Enables flexbox */
+}
+
+
+.back-to-top:hover {
+  background-color: var(--secondary-color); /* Slightly different color on hover */
+  color: var(--primary-color);
+}
+
+.section {
+  margin: 80px 0;
+}
+
+.img-fluid {
+  transition: transform 0.5s ease; /* Smooth transition for zoom effect */
+}
+
+.img-fluid:hover {
+  transform: scale(1.1); /* Increase the scale to zoom in */
+}
