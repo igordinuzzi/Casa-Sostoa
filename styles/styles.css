@@ -301,3 +301,35 @@ p {
 .img-fluid:hover {
   transform: scale(1.1); /* Increase the scale to zoom in */
 }
+
+.burger {
+   color: var(--background-color);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .footer .col-md-6 {
+      text-align: center;
+      margin-bottom: 20px; /* Add space between logo/social media and the next element */
+  }
+  
+  .footer .col-md-6, .footer .col-12 {
+      width: 100%; /* Force full width */
+  }
+  
+  .footer a.icons-footer {
+      display: inline-block; /* Display icons inline-block for horizontal layout */
+  }
+
+  .footer .col-12 a.footer-link {
+    display: block; /* Make each link fill the row */
+    margin: 0 auto 10px; /* Add some bottom margin for spacing, adjust as needed */
+    text-align: center; /* Center-align the text */
+}
+
+.img-fluid {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+}
