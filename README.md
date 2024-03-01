@@ -18,8 +18,10 @@ Future exhibitions are previewed in this section, providing visitors with a glim
 - **Events:** A calendar of cultural events hosted by Casa Sostoa, including workshops, talks, and more.
 Casa Sostoa is not just about visual art exhibitions; it's a cultural hub that hosts various events, including artist talks, workshops, and community gatherings. The events calendar is an interactive tool where visitors can view upcoming events, filter by event type, and access detailed information for each event, such as time, location, and registration details.
 
-- **Artist Spotlight:** Features detailed pages for each artist, showcasing their works and biographies.
-Dedicated pages for each featured artist provide an in-depth look at their work, artistic journey, and achievements. These pages include a biography, an overview of their art style, and a curated selection of their works with detailed descriptions. This feature serves as a digital catalogue of artists associated with Casa Sostoa, celebrating their contributions to the art world.
+- **About Casa Sostoa Page:** The "About Casa Sostoa" page offers visitors a comprehensive insight into the gallery's mission, history, and the team behind it. It serves as an introduction to Casa Sostoa, detailing its foundation, evolution, and its role in promoting art and culture within the community. This section also highlights the gallery's commitment to supporting both established and emerging artists, fostering a diverse and vibrant art scene.
+
+- **News Section**
+The News section keeps visitors updated on the latest happenings at Casa Sostoa, including exhibition openings, artist collaborations, community events, and other noteworthy milestones. It acts as a dynamic platform for announcements and articles, offering a deeper dive into the gallery's activities. This section ensures that art enthusiasts and visitors stay connected with Casa Sostoa's ongoing and future initiatives, reinforcing the gallery's position as a key player in the cultural landscape.
 
 - **Responsive Design:** Ensures an optimal browsing experience across all devices.
 In today's digital age, a responsive website design is crucial. The Casa Sostoa website is built to ensure an optimal viewing experience across a wide range of devices, from desktop computers to smartphones. This adaptability enhances user engagement by providing easy navigation, fast loading times, and a visually appealing layout regardless of the device used.
