@@ -47,6 +47,9 @@ In today's digital age, a responsive website design is crucial. The Casa Sostoa 
 
 ![Responsive](doc/features/07-01-responsive.jpg) 
 
+## Current Development Status
+As of the current stage, our project is actively under development, with several key functionalities in the process of being established. Notably, the integration for fetching data from Contentful is pending implementation, contingent upon the receipt of the requisite content from our clients. Additionally, the search functionality is in the planning phase and has not yet been incorporated into the project scope. Concurrently, we are in the midst of transitioning the project's foundation from a traditional HTML/CSS architecture to a more dynamic React framework. This transformation is aimed at enhancing the project's scalability, maintainability, and user experience. We appreciate your patience and are committed to keeping you informed on our progress.
+
 ## Technologies Used
 - **HTML5** for structuring the content.
 - **CSS3** and **Bootstrap 4.5.2** for styling and layout.
